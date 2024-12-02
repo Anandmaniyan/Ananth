@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>                                                                                                                                                                                                                                 var subtraction = a - b                                                                                                                var multiplication = a * b                                                                                                                      var division = a / b
+<head>
+<title>
+</title>
+<body>
+    <script>
+         
+            var password = prompt("Enter your password:");
+
+           
+            var correctPassword = "Ananth"; 
+            if (password === correctPassword) {
+                
+                var a = parseInt(prompt("Enter value for a:"));
+                var b = parseInt(prompt("Enter value for b:"));                                                             
+
+                
+                if (b > a) {
+                    var addition=a+b;
+                    var subtraction=a-b;
+                    var multiplication=a*b;
+                    var divison=a/b;
+                
+                   prompt("addition(c=a+b):",addition);
+                   prompt("subtraction(c=a-b):",subtraction);
+                   prompt("multiplication(c=a*b):",multiplication);
+                   prompt("divison(c=a/b):",divison);
+                    
+                    console.log(" (c = a + b): " + addition);
+                    console.log(" (c = a - b): " + subtraction);
+                    console.log(" (c = a * b): " + multiplication);
+                    console.log(" (c = a / b): " + divison);
+                } 
+
+                else {
+                    alert("b value higher than a");
+                }
+
+               } else {
+                
+                alert("wrong");
+            }
+        
+    </script>
+</body>
+</head>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
